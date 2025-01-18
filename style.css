@@ -146,6 +146,7 @@ body {
   height: 320px;
   background-color: rgb(54, 54, 54);
   margin-top: 140px;
+  position: relative;
 }
 
 .content-about {
@@ -220,4 +221,77 @@ body {
 
 .fa-arrow-right:hover {
   color: white !important;
+}
+
+.img-about {
+  height: 420px;
+  width: 50%;
+  position: absolute;
+  top: -36px;
+  right: 20px;
+}
+
+/* Product section css */
+
+.product-category {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  padding: 4px;
+}
+
+.heading-product {
+  font-size: 34px;
+  color: rgb(255, 129, 57) !important;
+  margin-bottom: 120px;
+  position: relative;
+}
+
+.heading-product::after {
+  content: "";
+  position: absolute;
+  left: 0px;
+  bottom: -8px;
+  background-color: rgb(255, 129, 57) !important;
+  width: 56px;
+  height: 2px;
+}
+
+.card-product {
+  padding: 14px 10px;
+  background-color: #242424 !important;
+}
+
+.img-card {
+  height: 190px !important;
+}
+
+.card-title {
+  font-size: 14px;
+  color: rgb(255, 129, 57) !important;
+  width: 100%;
+  border-bottom: 1px solid rgb(255, 129, 57);
+  padding: 5px 0px;
+  margin: 10px 0px;
+  margin-bottom: 20px !important;
+}
+
+.card-text {
+  color: rgba(255, 255, 255, 0.873) !important;
+  font-size: 12px;
+  line-height: 22px;
+}
+
+.btn-product-ctg {
+  color: rgb(255, 129, 57) !important;
+  text-decoration: none;
+  font-size: 13px;
+  text-transform: uppercase;
+}
+
+.btn-product-ctg:hover {
+  color: rgb(250, 183, 144) !important;
 }
