@@ -295,3 +295,29 @@ body {
 .btn-product-ctg:hover {
   color: rgb(250, 183, 144) !important;
 }
+
+.button-left {
+  position: absolute;
+  left: 20px;
+  padding: 10px 12px;
+  color: #100f10 !important;
+  border-radius: 30px;
+  background-color: #2c2c2c !important;
+  font-size: 18px;
+}
+
+.button-right {
+  position: absolute;
+  right: 20px;
+  padding: 10px 12px;
+  color: #100f10 !important;
+  border-radius: 30px;
+  background-color: #2c2c2c !important;
+  font-size: 18px;
+}
+
+.button-right:hover {
+  color: #100f10 !important;
+}
+
+/* Product section finished */
